@@ -1,0 +1,15 @@
+Testsuite: playlist.backend.UserServiceSpec
+Tests run: 1, Failures: 0, Errors: 1, Time elapsed: 0.663 sec
+------------- Standard Output ---------------
+--Output from test login--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from test login--
+------------- ---------------- ---------------
+
+Testcase: test login took 0.646 sec
+	Caused an ERROR
+null
+java.lang.NullPointerException
+	at playlist.backend.UserServiceSpec.test login(UserServiceSpec.groovy:29)
+

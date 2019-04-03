@@ -84,6 +84,7 @@ grails.hibernate.cache.queries = false
 grails.hibernate.pass.readonly = false
 // configure passing read-only to OSIV session by default, requires "singleSession = false" OSIV mode
 grails.hibernate.osiv.readonly = false
+grails.gorm.failOnError=true
 
 environments {
     development {
@@ -115,3 +116,22 @@ log4j.main = {
            'org.hibernate',
            'net.sf.ehcache.hibernate'
 }
+
+
+// Added by the Spring Security Core plugin:
+grails.plugin.springsecurity.userLookup.userDomainClassName = 'playlist.backend.User'
+grails.plugin.springsecurity.userLookup.authorityJoinClassName = 'playlist.backend.UserRole'
+grails.plugin.springsecurity.authority.className = 'playlist.backend.Role'
+grails.plugin.springsecurity.controllerAnnotations.staticRules = [
+	'/**':                ['permitAll'],
+	'/index':           ['permitAll'],
+	'/index.gsp':       ['permitAll'],
+	'/assets/**':       ['permitAll'],
+	'/**/js/**':        ['permitAll'],
+	'/**/css/**':       ['permitAll'],
+	'/**/images/**':    ['permitAll'],
+	'/**/favicon.ico':  ['permitAll']
+]
+
+
+

@@ -2,12 +2,160 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a22d2ab0-6f24-4e15-83f3-4fe4f96fd2d7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/playlist-backend-grailsPlugins.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/groovy/ExceptionHandler.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.slcache/.index" beforeDir="false" afterPath="$PROJECT_DIR$/.slcache/.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grails-app/conf/BootStrap.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/grails-app/conf/BootStrap.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grails-app/conf/Config.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/grails-app/conf/Config.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grails-app/conf/DataSource.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/grails-app/conf/DataSource.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grails-app/controllers/playlist/backend/PlaylistController.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/grails-app/controllers/playlist/backend/PlaylistController.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grails-app/controllers/playlist/backend/SongController.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/grails-app/controllers/playlist/backend/SongController.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grails-app/controllers/playlist/backend/UserController.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/grails-app/controllers/playlist/backend/UserController.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grails-app/domain/playlist/backend/Playlist.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/grails-app/domain/playlist/backend/Playlist.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grails-app/domain/playlist/backend/Song.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/grails-app/domain/playlist/backend/Song.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grails-app/domain/playlist/backend/User.groovy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/grails-app/services/playlist/backend/PlaylistService.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/grails-app/services/playlist/backend/PlaylistService.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grails-app/services/playlist/backend/SongService.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/grails-app/services/playlist/backend/SongService.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grails-app/services/playlist/backend/UserService.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/grails-app/services/playlist/backend/UserService.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playlist-backend-grailsPlugins.iml" beforeDir="false" afterPath="$PROJECT_DIR$/playlist-backend-grailsPlugins.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playlist-backend.iml" beforeDir="false" afterPath="$PROJECT_DIR$/playlist-backend.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BootStrap$_closure1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BootStrap$_closure1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BootStrap$_closure2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BootStrap$_closure2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BootStrap.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BootStrap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BuildConfig$_run_closure1_closure5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BuildConfig$_run_closure1_closure5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BuildConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BuildConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Config$_run_closure2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Config$_run_closure2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Config$_run_closure2_closure7.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Config$_run_closure2_closure7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Config$_run_closure2_closure8.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Config$_run_closure2_closure8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Config$_run_closure3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Config$_run_closure3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Config.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Config.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DataSource$_run_closure3_closure5_closure8.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DataSource$_run_closure3_closure5_closure8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DataSource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DataSource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Playlist.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Song.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/UrlMappings$__clinit__closure1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UrlMappings$__clinit__closure1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/UrlMappings$__clinit__closure1_closure2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UrlMappings$__clinit__closure1_closure2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/UrlMappings$__clinit__closure1_closure2_closure3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/UrlMappings$__clinit__closure1_closure2_closure4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/UrlMappings$__clinit__closure1_closure2_closure5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/UrlMappings$__clinit__closure1_closure2_closure6.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UrlMappings$__clinit__closure1_closure2_closure6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/UrlMappings$__clinit__closure1_closure3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UrlMappings$__clinit__closure1_closure3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/UrlMappings$__clinit__closure1_closure4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UrlMappings$__clinit__closure1_closure4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/UrlMappings$__clinit__closure1_closure5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UrlMappings$__clinit__closure1_closure5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/UrlMappings.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UrlMappings.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/playlist/backend/Playlist.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/playlist/backend/Playlist.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/playlist/backend/PlaylistController$_list_closure1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/playlist/backend/PlaylistController$_list_closure1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/playlist/backend/PlaylistController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/playlist/backend/PlaylistController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/playlist/backend/PlaylistService$_$tt__save_closure2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/playlist/backend/PlaylistService$_serviceMethod_closure1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/playlist/backend/PlaylistService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/playlist/backend/PlaylistService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/playlist/backend/Song$__clinit__closure1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/playlist/backend/Song$__clinit__closure1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/playlist/backend/Song.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/playlist/backend/Song.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/playlist/backend/SongController$_list_closure1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/playlist/backend/SongController$_list_closure1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/playlist/backend/SongController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/playlist/backend/SongController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/playlist/backend/SongService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/playlist/backend/SongService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/playlist/backend/Songs$__clinit__closure1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/playlist/backend/Songs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/playlist/backend/SongsController$_list_closure1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/playlist/backend/SongsController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/playlist/backend/SongsService$_save_closure1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/playlist/backend/SongsService$_serviceMethod_closure1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/playlist/backend/SongsService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/playlist/backend/User$__clinit__closure1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/playlist/backend/User$__clinit__closure1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/playlist/backend/User$__clinit__closure2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/playlist/backend/User$__clinit__closure2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/playlist/backend/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/playlist/backend/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/playlist/backend/UserController$_add_closure1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/playlist/backend/UserController$_add_closure2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/playlist/backend/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/playlist/backend/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/playlist/backend/UserService$_add_closure1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/playlist/backend/UserService$_serviceMethod_closure1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/playlist/backend/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/playlist/backend/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/playlist/backend/Users$__clinit__closure1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/playlist/backend/Users.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/resources.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/resources.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/stacktrace.log" beforeDir="false" afterPath="$PROJECT_DIR$/target/stacktrace.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/AssetPipelineBootStrap.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugin-classes/AssetPipelineBootStrap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/AssetPipelineGrailsPlugin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugin-classes/AssetPipelineGrailsPlugin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/CacheGrailsPlugin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugin-classes/CacheGrailsPlugin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/DatabaseMigrationGrailsPlugin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugin-classes/DatabaseMigrationGrailsPlugin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/DbdocUrlMappings.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugin-classes/DbdocUrlMappings.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/DefaultCacheConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugin-classes/DefaultCacheConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/DefaultWebXmlConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugin-classes/DefaultWebXmlConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/Hibernate4GrailsPlugin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugin-classes/Hibernate4GrailsPlugin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/JQueryConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugin-classes/JQueryConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/JQueryPluginResources.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugin-classes/JQueryPluginResources.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/JQueryResourceTagLib.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugin-classes/JQueryResourceTagLib.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/JQueryService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugin-classes/JQueryService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/JQueryTagLib.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugin-classes/JQueryTagLib.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/JqueryGrailsPlugin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugin-classes/JqueryGrailsPlugin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/ScaffoldingGrailsPlugin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugin-classes/ScaffoldingGrailsPlugin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/WebxmlGrailsPlugin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugin-classes/WebxmlGrailsPlugin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/grails/AssetMethodTagLib.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/grails/AssetMethodTagLib.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/grails/AssetPipelineFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/grails/AssetPipelineFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/grails/AssetProcessorService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/grails/AssetProcessorService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/grails/AssetResourceLocator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/grails/AssetResourceLocator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/grails/AssetsTagLib.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/grails/AssetsTagLib.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/grails/CachingLinkGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/grails/CachingLinkGenerator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/grails/LinkGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/grails/LinkGenerator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/grails/fs/EmptyResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/grails/fs/EmptyResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/grails/fs/SpringAssetCache.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/grails/fs/SpringAssetCache.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/grails/fs/SpringResourceAssetResolver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/grails/fs/SpringResourceAssetResolver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/CacheTagLib.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/CacheTagLib.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/ConfigBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/ConfigBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/ConfigLoader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/ConfigLoader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/GrailsCacheAdminService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/GrailsCacheAdminService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/ChangelogXml2Groovy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/ChangelogXml2Groovy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/DbdocController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/DbdocController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/DslBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/DslBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GormColumn.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GormColumn.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GormDatabase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GormDatabase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GormDatabaseSnapshotGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GormDatabaseSnapshotGenerator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GormDatabaseTypeConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GormDatabaseTypeConverter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GormDiff.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GormDiff.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GrailsChange.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GrailsChange.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GrailsChangeLogParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GrailsChangeLogParser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GrailsClassLoaderResourceAccessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GrailsClassLoaderResourceAccessor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GrailsDiffStatusListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GrailsDiffStatusListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GrailsPrecondition.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GrailsPrecondition.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GroovyAwareStringChangeLogSerializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GroovyAwareStringChangeLogSerializer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/HibernateAwareTypeConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/HibernateAwareTypeConverter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/MigrationRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/MigrationRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/MigrationUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/MigrationUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/MySQLCompatibleChangeLogSerializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/MySQLCompatibleChangeLogSerializer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/MysqlAwareCreateTableGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/MysqlAwareCreateTableGenerator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/NoopVisitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/NoopVisitor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/ScriptUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/ScriptUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/Slf4jLogger.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/Slf4jLogger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/AuthorListWriter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/AuthorListWriter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/AuthorWriter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/AuthorWriter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/ChangeLogListWriter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/ChangeLogListWriter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/ChangeLogWriter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/ChangeLogWriter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/ColumnWriter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/ColumnWriter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/HTMLListWriter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/HTMLListWriter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/HTMLWriter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/HTMLWriter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/MemoryDocVisitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/MemoryDocVisitor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/PendingChangesWriter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/PendingChangesWriter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/PendingSQLWriter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/PendingSQLWriter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/RecentChangesWriter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/RecentChangesWriter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/TableListWriter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/TableListWriter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/TableWriter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/TableWriter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/webxml/FilterManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/webxml/FilterManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/org/codehaus/groovy/grails/plugins/jquery/JQueryConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugin-classes/org/codehaus/groovy/grails/plugins/jquery/JQueryConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/org/codehaus/groovy/grails/plugins/jquery/JQueryProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugin-classes/org/codehaus/groovy/grails/plugins/jquery/JQueryProvider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/org/codehaus/groovy/grails/scaffolding/DefaultGrailsTemplateGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugin-classes/org/codehaus/groovy/grails/scaffolding/DefaultGrailsTemplateGenerator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/resources/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/resources/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/unit/playlist/backend/PlaylistControllerSpec.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/test/unit/playlist/backend/PlaylistControllerSpec.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/unit/playlist/backend/PlaylistServiceSpec.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/test/unit/playlist/backend/PlaylistServiceSpec.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/unit/playlist/backend/PlaylistSpec.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/test/unit/playlist/backend/PlaylistSpec.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/unit/playlist/backend/SongControllerSpec.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/test/unit/playlist/backend/SongControllerSpec.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/unit/playlist/backend/SongSpec.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/test/unit/playlist/backend/SongSpec.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/unit/playlist/backend/UserControllerSpec.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/test/unit/playlist/backend/UserControllerSpec.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/unit/playlist/backend/UserServiceSpec.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/test/unit/playlist/backend/UserServiceSpec.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/unit/playlist/backend/UserSpec.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/test/unit/playlist/backend/UserSpec.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../your_init_file.sql" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$USER_HOME$/.grails/" />
@@ -17,60 +165,42 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/playlist_backend$Grails__playlist_backend.ic" NAME="Grails: playlist-backend Coverage Results" MODIFIED="1553765044503" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy">
+        <entry file="file://$PROJECT_DIR$/grails-app/controllers/playlist/backend/UserController.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
+            <state relative-caret-position="395">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
+              <folding>
+                <element signature="e#26#55#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/domain/playlist/backend/User.groovy">
+        <entry file="file://$PROJECT_DIR$/grails-app/services/playlist/backend/UserService.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="41" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="41" />
-            </state>
-          </provider>
-          <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/services/playlist/backend/PlaylistService.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="170">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy">
+        <entry file="file://$PROJECT_DIR$/grails-app/controllers/playlist/backend/PlaylistController.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="50" column="17" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/domain/playlist/backend/Playlist.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="21" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="21" />
-            </state>
-          </provider>
-          <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/conf/DataSource.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="54" selection-start-line="4" selection-start-column="54" selection-end-line="4" selection-end-column="54" />
+            <state relative-caret-position="260">
+              <caret line="123" column="48" selection-start-line="123" selection-start-column="48" selection-end-line="123" selection-end-column="48" />
+              <folding>
+                <element signature="e#27#56#0" expanded="true" />
+                <element signature="n#!!block;n#save#0;n#!!block;n#PlaylistController#0" />
+                <element signature="n#!!block;n#update#0;n#!!block;n#PlaylistController#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -78,36 +208,67 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/controllers/playlist/backend/SongController.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+            <state relative-caret-position="275">
+              <caret line="61" column="30" lean-forward="true" selection-start-line="61" selection-start-column="30" selection-end-line="61" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/domain/playlist/backend/Song.groovy">
+        <entry file="file://$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+            <state relative-caret-position="195">
+              <caret line="13" column="77" lean-forward="true" selection-start-line="13" selection-start-column="77" selection-end-line="13" selection-end-column="77" />
             </state>
           </provider>
-          <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/services/playlist/backend/SongService.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="900">
+              <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/conf/DataSource.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="149">
+              <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/grails-app/services/playlist/backend/SongService.groovy">
+        <entry file="file://$PROJECT_DIR$/grails-app/services/playlist/backend/PlaylistService.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="449">
+              <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+              <folding>
+                <element signature="e#26#55#0" expanded="true" />
+                <element signature="n#!!block;n#update#0;n#!!block;n#PlaylistService#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.sdkman/candidates/grails/2.4.5/lib/org.slf4j/jcl-over-slf4j/jars/jcl-over-slf4j-1.7.5.jar!/org/apache/commons/logging/impl/SLF4JLog.class">
+        <entry file="file://$PROJECT_DIR$/grails-app/domain/playlist/backend/Playlist.groovy">
+          <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+            <state relative-caret-position="105">
+              <caret line="7" column="27" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/groovy/ExceptionHandler.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="23" lean-forward="true" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -117,7 +278,18 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>User</find>
+      <find>login/auth</find>
+      <find>/login</find>
+      <find>security</find>
+      <find>securityConfig</find>
+      <find>JSESSIONID</find>
+      <find>Secuser</find>
+      <find>auth</find>
+      <find>authfail</find>
     </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -133,30 +305,47 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/grails-app/domain/User.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/services/playlist/backend/PlaylistService.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/controllers/playlist/backend/UserController.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/domain/playlist/backend/User.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/services/playlist/backend/UserService.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/controllers/playlist/backend/PlaylistController.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/conf/DataSource.groovy" />
         <option value="$PROJECT_DIR$/grails-app/domain/playlist/backend/Songs.groovy" />
         <option value="$PROJECT_DIR$/grails-app/controllers/playlist/backend/SongsController.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy" />
         <option value="$PROJECT_DIR$/grails-app/services/playlist/backend/SongsService.groovy" />
         <option value="$PROJECT_DIR$/test/unit/playlist/backend/SongsServiceSpec.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/utils/ResponseStatus.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/utils/Response.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/conf/BootStrap.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/domain/playlist/backend/User.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/controllers/playlist/backend/UserController.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/services/playlist/backend/UserService.groovy" />
+        <option value="$PROJECT_DIR$/test/unit/playlist/backend/PlaylistControllerSpec.groovy" />
+        <option value="$PROJECT_DIR$/test/unit/playlist/backend/PlaylistServiceSpec.groovy" />
+        <option value="$PROJECT_DIR$/test/unit/playlist/backend/PlaylistSpec.groovy" />
+        <option value="$PROJECT_DIR$/test/unit/playlist/backend/SongControllerSpec.groovy" />
+        <option value="$PROJECT_DIR$/test/unit/playlist/backend/SongSpec.groovy" />
+        <option value="$PROJECT_DIR$/test/unit/playlist/backend/UserControllerSpec.groovy" />
+        <option value="$PROJECT_DIR$/test/unit/playlist/backend/UserSpec.groovy" />
+        <option value="$PROJECT_DIR$/test/unit/playlist/backend/UserServiceSpec.groovy" />
+        <option value="$PROJECT_DIR$/target/work/plugins/spring-security-core-2.0.0/grails-app/controllers/grails/plugin/springsecurity/LoginController.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/domain/playlist/backend/PlayListSongs.groovy" />
+        <option value="$PROJECT_DIR$/test/unit/playlist/backend/PlayListSongsSpec.groovy" />
         <option value="$PROJECT_DIR$/grails-app/domain/playlist/backend/Playlist.groovy" />
         <option value="$PROJECT_DIR$/grails-app/domain/playlist/backend/Song.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/conf/Config.groovy" />
+        <option value="$PROJECT_DIR$/src/groovy/ExceptionHandler.groovy" />
+        <option value="$PROJECT_DIR$/test/unit/playlist/backend/CustomExceptionHandler.groovy" />
         <option value="$PROJECT_DIR$/grails-app/controllers/playlist/backend/SongController.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/conf/DataSource.groovy" />
         <option value="$PROJECT_DIR$/grails-app/services/playlist/backend/SongService.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/controllers/playlist/backend/PlaylistController.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/services/playlist/backend/PlaylistService.groovy" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1945" />
-    <option name="y" value="-4" />
-    <option name="width" value="1299" />
-    <option name="height" value="764" />
+    <option name="x" value="1752" />
+    <option name="y" value="87" />
+    <option name="width" value="1307" />
+    <option name="height" value="772" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -164,6 +353,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -224,11 +414,6 @@
             <path>
               <item name="playlist-backend" type="b2602c69:ProjectViewProjectNode" />
               <item name="playlist-backend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="playlist-backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="playlist-backend" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -239,29 +424,31 @@
             </path>
             <path>
               <item name="playlist-backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="playlist-backend" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="unit" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="Grails" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553514268769" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554289743189" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="playlist.backend" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -303,15 +490,25 @@
       <option name="presentableId" value="Default" />
       <updated>1553234793068</updated>
       <workItem from="1553234796594" duration="12714000" />
-      <workItem from="1553416813948" duration="32279000" />
+      <workItem from="1553416813948" duration="64258000" />
+      <workItem from="1554100663962" duration="33729000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44993000" />
+    <option name="totallyTimeSpent" value="110701000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1431" y="-4" width="1855" height="1084" extended-state="6" />
+    <frame x="1425" y="-4" width="1861" height="1084" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Persistence" order="0" side_tool="true" />
@@ -320,34 +517,36 @@
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info id="Web" order="5" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.49932885" visible="true" weight="0.11995578" />
+      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.49932885" weight="0.13168044" />
       <window_info id="Designer" order="7" />
       <window_info id="Structure" order="8" sideWeight="0.50067115" side_tool="true" weight="0.17302378" />
-      <window_info anchor="bottom" id="Spring" order="0" />
-      <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Grails Console" order="3" weight="0.32497388" />
-      <window_info anchor="bottom" id="Java Enterprise" order="4" />
-      <window_info anchor="bottom" id="Database Changes" order="5" />
-      <window_info anchor="bottom" id="Version Control" order="6" weight="0.3291536" />
-      <window_info anchor="bottom" id="Message" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32810867" />
-      <window_info anchor="bottom" id="Find" order="9" weight="0.32810867" />
-      <window_info anchor="bottom" id="Run" order="10" weight="0.34691745" />
-      <window_info anchor="bottom" id="Debug" order="11" weight="0.33437827" />
-      <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="14" />
-      <window_info anchor="right" id="Palette" order="0" />
-      <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info anchor="right" id="Database" order="2" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Bean Validation" order="5" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="8" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.3291536" />
+      <window_info anchor="bottom" id="Spring" order="1" weight="0.3291536" />
+      <window_info anchor="bottom" id="Docker" order="2" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Grails Console" order="4" weight="0.3218391" />
+      <window_info anchor="bottom" id="Java Enterprise" order="5" weight="0.3291536" />
+      <window_info anchor="bottom" id="Database Changes" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3291536" />
+      <window_info anchor="bottom" id="Message" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.48589343" />
+      <window_info anchor="bottom" id="Find" order="10" weight="0.32713178" />
+      <window_info anchor="bottom" id="Run" order="11" weight="0.32392895" />
+      <window_info active="true" anchor="bottom" id="Debug" order="12" visible="true" weight="0.33019853" />
+      <window_info anchor="bottom" id="Cvs" order="13" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="14" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="15" weight="0.3291536" />
+      <window_info anchor="right" id="Coverage" order="0" side_tool="true" />
+      <window_info anchor="right" id="Palette" order="1" />
+      <window_info anchor="right" id="Capture Analysis" order="2" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Bean Validation" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="9" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="10" weight="0.25" />
     </layout>
     <layout-to-restore>
       <window_info id="Persistence" order="0" side_tool="true" />
@@ -356,34 +555,36 @@
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info id="Web" order="5" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.49932885" visible="true" weight="0.11995578" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.49932885" visible="true" weight="0.13168044" />
       <window_info id="Designer" order="7" />
       <window_info id="Structure" order="8" sideWeight="0.50067115" side_tool="true" weight="0.17302378" />
-      <window_info anchor="bottom" id="Spring" order="0" />
-      <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Grails Console" order="3" weight="0.32497388" />
-      <window_info anchor="bottom" id="Java Enterprise" order="4" />
-      <window_info anchor="bottom" id="Database Changes" order="5" />
-      <window_info anchor="bottom" id="Version Control" order="6" weight="0.3291536" />
-      <window_info anchor="bottom" id="Message" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32868218" />
-      <window_info anchor="bottom" id="Find" order="9" weight="0.32810867" />
-      <window_info anchor="bottom" id="Run" order="10" weight="0.34691745" />
-      <window_info active="true" anchor="bottom" id="Debug" order="11" visible="true" weight="0.33437827" />
-      <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="14" />
-      <window_info anchor="right" id="Palette" order="0" />
-      <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info anchor="right" id="Database" order="2" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Bean Validation" order="5" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="8" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.3291536" />
+      <window_info anchor="bottom" id="Spring" order="1" weight="0.3291536" />
+      <window_info anchor="bottom" id="Docker" order="2" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Grails Console" order="4" weight="0.3218391" />
+      <window_info anchor="bottom" id="Java Enterprise" order="5" weight="0.3291536" />
+      <window_info anchor="bottom" id="Database Changes" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3291536" />
+      <window_info anchor="bottom" id="Message" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.48589343" />
+      <window_info anchor="bottom" id="Find" order="10" weight="0.32713178" />
+      <window_info anchor="bottom" id="Run" order="11" weight="0.32392895" />
+      <window_info anchor="bottom" id="Debug" order="12" visible="true" weight="0.33019853" />
+      <window_info anchor="bottom" id="Cvs" order="13" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="14" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="15" weight="0.3291536" />
+      <window_info anchor="right" id="Coverage" order="0" side_tool="true" />
+      <window_info anchor="right" id="Palette" order="1" />
+      <window_info anchor="right" id="Capture Analysis" order="2" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Bean Validation" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="9" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="10" weight="0.25" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -392,129 +593,82 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/grails-app/controllers/playlist/backend/UserController.groovy</url>
-          <line>21</line>
-          <properties />
-          <option name="timeStamp" value="16" />
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/groovy/ExceptionHandler.groovy</url>
+          <line>5</line>
+          <properties class="playlist.backend.CustomExceptionHandler" method="handleException" />
+          <option name="timeStamp" value="38" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/grails-app/services/playlist/backend/UserService.groovy</url>
-          <line>23</line>
+          <url>file://$PROJECT_DIR$/grails-app/services/playlist/backend/PlaylistService.groovy</url>
+          <line>64</line>
           <properties />
-          <option name="timeStamp" value="17" />
+          <option name="timeStamp" value="50" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/grails-app/services/playlist/backend/UserService.groovy</url>
-          <line>36</line>
+          <url>file://$PROJECT_DIR$/grails-app/services/playlist/backend/PlaylistService.groovy</url>
+          <line>65</line>
           <properties />
-          <option name="timeStamp" value="18" />
+          <option name="timeStamp" value="51" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/grails-app/services/playlist/backend/UserService.groovy</url>
-          <line>37</line>
-          <properties />
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/grails-app/services/playlist/backend/UserService.groovy</url>
-          <line>28</line>
-          <properties />
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/grails-app/services/playlist/backend/UserService.groovy</url>
+          <url>file://$PROJECT_DIR$/grails-app/services/playlist/backend/PlaylistService.groovy</url>
           <line>29</line>
           <properties />
-          <option name="timeStamp" value="21" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/grails-app/controllers/playlist/backend/PlaylistController.groovy</url>
-          <line>11</line>
-          <properties />
-          <option name="timeStamp" value="26" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/grails-app/controllers/playlist/backend/PlaylistController.groovy</url>
-          <line>9</line>
-          <properties />
-          <option name="timeStamp" value="27" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/grails-app/controllers/playlist/backend/PlaylistController.groovy</url>
-          <line>10</line>
-          <properties />
-          <option name="timeStamp" value="28" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/grails-app/services/playlist/backend/PlaylistService.groovy</url>
-          <line>9</line>
-          <properties />
-          <option name="timeStamp" value="34" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/grails-app/services/playlist/backend/PlaylistService.groovy</url>
-          <line>10</line>
-          <properties />
-          <option name="timeStamp" value="35" />
+          <option name="timeStamp" value="52" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="GrailsRunConfigurationType">
-        <watch expression="Song.findByNameAndPlaylist(req.name, playlist)" language="Groovy" />
-      </configuration>
-    </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
       <expression>
-        <expression-string>Song.findByNameAndPlaylist(req.name, playlist)</expression-string>
+        <expression-string>def playlists = song.playlists</expression-string>
         <language-id>Groovy</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>Song.findByPlaylistAndName(playlist, req.name)</expression-string>
+        <expression-string>song.playlists.each { it.removeFromSongs(song)}</expression-string>
         <language-id>Groovy</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>songService</expression-string>
+        <expression-string>song.playlists</expression-string>
         <language-id>Groovy</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>req.user</expression-string>
+        <expression-string>song.playlists.collect {log.info(it)}</expression-string>
         <language-id>Groovy</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>Playlist.all.findAll{             it.user.id == req.user         }</expression-string>
+        <expression-string>song.playlists.collect { it.removeFromSongs(song)}</expression-string>
         <language-id>Groovy</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>Playlist.list()</expression-string>
+        <expression-string>song.delete()</expression-string>
         <language-id>Groovy</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>Playlist.findAllByUser(user)</expression-string>
+        <expression-string>song</expression-string>
         <language-id>Groovy</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>def user = User.get(id)</expression-string>
+        <expression-string>song.playlists.removeAll()</expression-string>
         <language-id>Groovy</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>Playlist.findAllByUser()</expression-string>
+        <expression-string>song.playlists.clear()</expression-string>
         <language-id>Groovy</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>params.id</expression-string>
+        <expression-string>Song.list()</expression-string>
         <language-id>Groovy</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -528,153 +682,299 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/User.groovy" />
-    <entry file="jar://$USER_HOME$/.sdkman/candidates/grails/2.4.5/dist/grails-plugin-gsp-2.4.5.jar!/org/codehaus/groovy/grails/plugins/web/taglib/ApplicationTagLib.class">
+    <entry file="file://$PROJECT_DIR$/test/unit/playlist/backend/UserControllerSpec.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="35" column="50" selection-start-line="35" selection-start-column="50" selection-end-line="35" selection-end-column="50" />
+        <state relative-caret-position="270">
+          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/BootStrap.groovy">
+    <entry file="file://$PROJECT_DIR$/test/unit/playlist/backend/UserSpec.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/test-reports/TEST-unit-unit-playlist.backend.UserServiceSpec.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/Config.groovy">
+    <entry file="file://$PROJECT_DIR$/target/test-reports/TEST-unit-unit-playlist.backend.UserSpec.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/unit/playlist/backend/PlaylistControllerSpec.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1252">
+        <state relative-caret-position="285">
+          <caret line="19" column="13" selection-start-line="18" selection-start-column="7" selection-end-line="19" selection-end-column="13" />
+          <folding>
+            <element signature="e#26#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/test-reports/plain/TEST-unit-unit-playlist.backend.PlaylistControllerSpec.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/test-reports/plain/TEST-unit-unit-playlist.backend.PlaylistControllerSpec-err.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/test-reports/plain/TEST-unit-unit-playlist.backend.PlaylistControllerSpec-out.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/test-reports/plain/TEST-unit-unit-playlist.backend.PlaylistServiceSpec.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/test-reports/plain/TEST-unit-unit-playlist.backend.PlaylistServiceSpec-err.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/test-reports/plain/TEST-unit-unit-playlist.backend.PlaylistSpec-err.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/test-reports/plain/TEST-unit-unit-playlist.backend.SongControllerSpec-err.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/test-reports/plain/TEST-unit-unit-playlist.backend.SongSpec-err.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/test-reports/plain/TEST-unit-unit-playlist.backend.UserSpec-out.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/test-reports/plain/TEST-unit-unit-playlist.backend.UserSpec-err.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/test-reports/TEST-unit-unit-playlist.backend.PlaylistControllerSpec.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/test-reports/TEST-unit-unit-playlist.backend.PlaylistServiceSpec.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/test-reports/TEST-unit-unit-playlist.backend.PlaylistSpec.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/test-reports/TEST-unit-unit-playlist.backend.SongSpec.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/test-reports/TESTS-TestSuites.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/unit/playlist/backend/UserServiceSpec.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="28" column="54" selection-start-line="28" selection-start-column="54" selection-end-line="28" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/test-reports/plain/TEST-unit-unit-playlist.backend.UserServiceSpec-out.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/test-reports/plain/TEST-unit-unit-playlist.backend.UserServiceSpec-err.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/test-reports/plain/TEST-unit-unit-playlist.backend.UserServiceSpec.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/work/plugins/spring-security-core-2.0.0/grails-app/services/grails/plugin/springsecurity/SpringSecurityService.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2055">
+          <caret line="69" column="68" selection-start-line="69" selection-start-column="54" selection-end-line="69" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/work/plugins/spring-security-core-2.0.0/grails-app/views/login/denied.gsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/work/plugins/spring-security-core-2.0.0/grails-app/views/login/auth.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1485" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/work/plugins/spring-security-core-2.0.0/scripts/S2CreatePersistentToken.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1005">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/playlist/backend/PlaylistController.groovy">
+    <entry file="file://$PROJECT_DIR$/target/work/plugins/spring-security-core-2.0.0/grails-app/conf/DefaultSecurityConfig.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-840">
+          <caret line="108" column="5" selection-start-line="108" selection-start-column="5" selection-end-line="108" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/net/sf/ehcache/ehcache/2.9.0/ehcache-2.9.0.jar!/rest-management-private-classpath/org/eclipse/jetty/security/LoginService.class_terracotta">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/work/plugins/spring-security-core-2.0.0/grails-app/controllers/grails/plugin/springsecurity/LoginController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="67" column="25" selection-start-line="67" selection-start-column="21" selection-end-line="67" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/playlist/backend/UserRole.groovy">
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="5" column="35" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="35" />
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/services/playlist/backend/UserService.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/playlist/backend/Songs.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/playlist/backend/User.groovy">
       <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/playlist/backend/SongsController.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="23" selection-end-line="21" selection-end-column="1" />
+        <state relative-caret-position="252">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/services/playlist/backend/SongsService.groovy">
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/playlist/backend/PlayListSongs.groovy">
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="15" lean-forward="true" selection-end-line="24" />
+        <state relative-caret-position="90">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/unit/playlist/backend/SongsServiceSpec.groovy">
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/playlist/backend/Role.groovy">
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/unit/playlist/backend/PlayListSongsSpec.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
-          <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+          <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+          <folding>
+            <element signature="e#26#58#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/playlist/backend/UserController.groovy">
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/playlist/backend/Song.groovy">
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/playlist/backend/SongController.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/DataSource.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="54" selection-start-line="4" selection-start-column="54" selection-end-line="4" selection-end-column="54" />
+        <state relative-caret-position="285">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="50" column="17" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />
+        <state relative-caret-position="900">
+          <caret line="60" column="36" lean-forward="true" selection-start-line="60" selection-start-column="36" selection-end-line="60" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/playlist/backend/User.groovy">
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/BootStrap.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="41" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="41" />
+        <state relative-caret-position="195">
+          <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
         </state>
       </provider>
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/services/playlist/backend/PlaylistService.groovy">
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/Config.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="360">
+          <caret line="87" lean-forward="true" selection-start-line="87" selection-end-line="87" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/groovy/ExceptionHandler.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="23" lean-forward="true" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/unit/playlist/backend/CustomExceptionHandler.groovy">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/domain/playlist/backend/Playlist.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="21" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="21" />
-        </state>
-      </provider>
       <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider" />
-    </entry>
-    <entry file="jar://$USER_HOME$/.sdkman/candidates/grails/2.4.5/lib/org.springframework/spring-core/jars/spring-core-4.0.9.RELEASE.jar!/org/springframework/core/convert/support/GenericConversionService.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="30" column="82" selection-start-line="30" selection-start-column="82" selection-end-line="30" selection-end-column="82" />
+        <state relative-caret-position="105">
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/playlist/backend/Song.groovy">
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/playlist/backend/UserController.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        <state relative-caret-position="395">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="e#26#55#0" expanded="true" />
+          </folding>
         </state>
       </provider>
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider" />
     </entry>
-    <entry file="jar://$USER_HOME$/.sdkman/candidates/grails/2.4.5/lib/org.slf4j/jcl-over-slf4j/jars/jcl-over-slf4j-1.7.5.jar!/org/apache/commons/logging/impl/SLF4JLog.class">
+    <entry file="file://$PROJECT_DIR$/grails-app/services/playlist/backend/UserService.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+        <state relative-caret-position="170">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/playlist/backend/SongController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="61" column="30" lean-forward="true" selection-start-line="61" selection-start-column="30" selection-end-line="61" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/DataSource.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/services/playlist/backend/SongService.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="900">
+          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="77" lean-forward="true" selection-start-line="13" selection-start-column="77" selection-end-line="13" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/playlist/backend/PlaylistController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="123" column="48" selection-start-line="123" selection-start-column="48" selection-end-line="123" selection-end-column="48" />
+          <folding>
+            <element signature="e#27#56#0" expanded="true" />
+            <element signature="n#!!block;n#save#0;n#!!block;n#PlaylistController#0" />
+            <element signature="n#!!block;n#update#0;n#!!block;n#PlaylistController#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/services/playlist/backend/PlaylistService.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+          <folding>
+            <element signature="e#26#55#0" expanded="true" />
+            <element signature="n#!!block;n#update#0;n#!!block;n#PlaylistService#0" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -685,7 +985,7 @@
         <entry key="playlist-backend">
           <value>
             <GrailsSettings>
-              <option name="buildConfigCrc" value="-324333248" />
+              <option name="buildConfigCrc" value="-973375766" />
               <option name="pluginDependenciesCrc" value="1682136675" />
               <option name="properties">
                 <map>
@@ -764,6 +1064,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

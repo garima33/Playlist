@@ -1,0 +1,10 @@
+Testsuite: playlist.backend.UserControllerSpec
+Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.164 sec
+------------- Standard Output ---------------
+--Output from test login--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from test login--
+------------- ---------------- ---------------
+
+Testcase: test login took 0.154 sec

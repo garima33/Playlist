@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="1" failures="0" hostname="PRINHYLTPDL0797" name="playlist.backend.UserServiceSpec" tests="1" time="0.663" timestamp="2019-03-29T11:32:12">
+  <properties />
+  <testcase classname="playlist.backend.UserServiceSpec" name="test login" time="0.648">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at playlist.backend.UserServiceSpec.test login(UserServiceSpec.groovy:29)
+</error>
+  </testcase>
+  <system-out><![CDATA[--Output from test login--
+]]></system-out>
+  <system-err><![CDATA[--Output from test login--
+]]></system-err>
+</testsuite>

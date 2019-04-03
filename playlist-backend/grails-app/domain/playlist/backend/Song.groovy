@@ -5,13 +5,13 @@ class Song {
     String album_name
     String singer
     String composer
-    Date created_date
-    Date updated_date
-
-    static belongsTo = [playlist: Playlist]
+    Date dateCreated
+    Date lastUpdated
+    static belongsTo = Playlist
+    static hasMany = [playlists: Playlist]
 
     static constraints = {
-        name unique: ['playlist'], nullable: false, blank: false
+        name unique: ['album_name'], nullable: false, blank: false
         singer nullable: false, blank: false
         composer nullable: false, blank: false
         album_name nullable: false, blank: false

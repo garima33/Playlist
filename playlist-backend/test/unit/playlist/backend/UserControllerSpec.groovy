@@ -15,6 +15,8 @@ class UserControllerSpec extends Specification {
     def cleanup() {
     }
 
-    void "test something"() {
+    void "test login"() {
+        expect:
+        1==1
     }
 }

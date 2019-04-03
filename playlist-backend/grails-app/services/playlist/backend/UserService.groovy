@@ -26,8 +26,10 @@ class UserService {
         if(user){
             result.msg = "User already exists"
         }else{
-            def newUser = new User(username: req.name, password: req.password, type: 'user', created_date: new Date(), updated_date: new Date())
+            def newUser = new User(username: req.name, password: req.password)
             newUser.save()
+            def userRole = Role.findByAuthority('ROLE_USER')
+            UserRole.create(newUser,userRole, true)
             result.msg = "User Successfully added"
         }
        return result

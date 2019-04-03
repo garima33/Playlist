@@ -16,5 +16,7 @@ class PlaylistSpec extends Specification {
     }
 
     void "test something"() {
+        expect:
+        1==1
     }
 }

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="PRINHYLTPDL0797" name="playlist.backend.UserControllerSpec" tests="1" time="0.164" timestamp="2019-03-29T11:32:14">
+  <properties />
+  <testcase classname="playlist.backend.UserControllerSpec" name="test login" time="0.154" />
+  <system-out><![CDATA[--Output from test login--
+]]></system-out>
+  <system-err><![CDATA[--Output from test login--
+]]></system-err>
+</testsuite>

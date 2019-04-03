@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="0" hostname="PRINHYLTPDL0797" id="0" name="PlaylistControllerSpec" package="playlist.backend" tests="1" time="1.177" timestamp="2019-03-29T11:32:13">
+      <properties />
+
+      <testcase classname="playlist.backend.PlaylistControllerSpec" name="test something" time="1.166" />
+
+      <system-out><![CDATA[--Output from test something--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from test something--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="PRINHYLTPDL0797" id="1" name="PlaylistServiceSpec" package="playlist.backend" tests="1" time="0.072" timestamp="2019-03-29T11:32:14">
+      <properties />
+
+      <testcase classname="playlist.backend.PlaylistServiceSpec" name="test something" time="0.068" />
+
+      <system-out><![CDATA[--Output from test something--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from test something--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="PRINHYLTPDL0797" id="2" name="PlaylistSpec" package="playlist.backend" tests="1" time="0.148" timestamp="2019-03-29T11:32:13">
+      <properties />
+
+      <testcase classname="playlist.backend.PlaylistSpec" name="test something" time="0.136" />
+
+      <system-out><![CDATA[--Output from test something--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from test something--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="PRINHYLTPDL0797" id="3" name="SongControllerSpec" package="playlist.backend" tests="1" time="0.166" timestamp="2019-03-29T11:32:14">
+      <properties />
+
+      <testcase classname="playlist.backend.SongControllerSpec" name="test something" time="0.156" />
+
+      <system-out><![CDATA[--Output from test something--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from test something--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="PRINHYLTPDL0797" id="4" name="SongSpec" package="playlist.backend" tests="1" time="0.119" timestamp="2019-03-29T11:32:14">
+      <properties />
+
+      <testcase classname="playlist.backend.SongSpec" name="test something" time="0.11" />
+
+      <system-out><![CDATA[--Output from test something--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from test something--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="PRINHYLTPDL0797" id="5" name="UserControllerSpec" package="playlist.backend" tests="1" time="0.164" timestamp="2019-03-29T11:32:14">
+      <properties />
+
+      <testcase classname="playlist.backend.UserControllerSpec" name="test login" time="0.154" />
+
+      <system-out><![CDATA[--Output from test login--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from test login--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="1" failures="0" hostname="PRINHYLTPDL0797" id="6" name="UserServiceSpec" package="playlist.backend" tests="1" time="0.663" timestamp="2019-03-29T11:32:12">
+      <properties />
+
+      <testcase classname="playlist.backend.UserServiceSpec" name="test login" time="0.648">
+          <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at playlist.backend.UserServiceSpec.test login(UserServiceSpec.groovy:29)
+</error>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from test login--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from test login--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="PRINHYLTPDL0797" id="7" name="UserSpec" package="playlist.backend" tests="1" time="2.51" timestamp="2019-03-29T11:32:09">
+      <properties />
+
+      <testcase classname="playlist.backend.UserSpec" name="test something" time="2.449" />
+
+      <system-out><![CDATA[--Output from test something--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from test something--
+]]></system-err>
+
+  </testsuite>
+</testsuites>
